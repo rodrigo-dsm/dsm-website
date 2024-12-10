@@ -19,3 +19,19 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.menu-item:hover .submenu {
+  visibility: visible;
+  overflow: visible;
+  opacity: 1;
+}
+
+.submenu {
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.menu-item:hover .menu-link {
+  color: #173097;
+}

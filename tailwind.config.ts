@@ -11,6 +11,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        bgPreHeader: "#f6f6f6",
+        menuColor: "#7F7F7F",
+        colorMenuItem: "#173097"
       },
     },
   },
