@@ -63,8 +63,8 @@ const menuItems: itemMenu[] = [
         ]
     },
     {
-        title: "Máquinas Papel",
-        nameDisplay: "Máquinas Indústria Grafica e Embalagem",
+        title: "Máquinas Laser",
+        nameDisplay: "Máquinas Laser",
         slug: "/maquinas-metal",
         itsSubItems: true,
         subItems: [
@@ -86,8 +86,8 @@ const menuItems: itemMenu[] = [
         ]
     },
     {
-        title: "Máquinas Papel",
-        nameDisplay: "Máquinas Indústria Grafica e Embalagem",
+        title: "Máquinas Plástico",
+        nameDisplay: "Máquinas Indústria Plástica",
         slug: "/maquinas-metal",
         itsSubItems: true,
         subItems: [
@@ -109,8 +109,8 @@ const menuItems: itemMenu[] = [
         ]
     },
     {
-        title: "Máquinas Papel",
-        nameDisplay: "Máquinas Indústria Grafica e Embalagem",
+        title: "Máquinas Madeira",
+        nameDisplay: "Máquinas Indústria de Madeira",
         slug: "/maquinas-metal",
         itsSubItems: true,
         subItems: [
@@ -132,8 +132,8 @@ const menuItems: itemMenu[] = [
         ]
     },
     {
-        title: "Máquinas Papel",
-        nameDisplay: "Máquinas Indústria Grafica e Embalagem",
+        title: "Robôs Industriais",
+        nameDisplay: "Robôs Industriais",
         slug: "/maquinas-metal",
         itsSubItems: true,
         subItems: [
