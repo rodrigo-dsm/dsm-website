@@ -35,3 +35,11 @@ body {
 .menu-item:hover .menu-link {
   color: #173097;
 }
+
+.menu-item:last-child .submenu {
+  left: -200px;
+}
+
+.banner-main .swiper-wrapper {
+  display: flex;
+}
