@@ -10,13 +10,14 @@ const Header = () => {
             <PreHeader />
             <div className="container mx-auto flex items-center justify-between gap-4 py-5">
                 <div className="w-1/5">
-                    <Image 
-                        src={logoDSM}
-                        alt="Logo DSM"
-                        width={211}
-                        height={56}
-                    />
-
+                    <Link href={"/"}>
+                        <Image 
+                            src={logoDSM}
+                            alt="Logo DSM"
+                            width={211}
+                            height={56}
+                        />
+                    </Link>
                 </div>
                 <div className="flex items-center gap-4 justify-center w-full">
                     <Link

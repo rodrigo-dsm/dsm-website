@@ -11,6 +11,9 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --bgmetalslider: linear-gradient(to bottom,  #3544AB 0%,#ffffff 50%,#ffffff 100%);
+    --bgpapelslider: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 50%,#ffffff 100%);
+    --bgplasticoslider: linear-gradient(to bottom,  #0AA5FC 0%,#ffffff 50%,#ffffff 100%);
   }
 }
 
@@ -42,4 +45,64 @@ body {
 
 .banner-main .swiper-wrapper {
   display: flex;
+}
+
+.slider-products .swiper-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.slider-products .swiper-button-prev,
+.slider-products .swiper-button-next {
+  width: 40px;
+  height: 40px;
+
+}
+
+.slider-products .swiper-button-prev::after,
+.slider-products .swiper-button-next::after {
+  content: '';
+  display: block;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-metalslider .slider-products .swiper-button-next::after {
+  background-image: url('../public/icons/azul-next-a.png');
+}
+
+.bg-metalslider .slider-products .swiper-button-prev::after {
+  background-image: url('../public/icons/azul-prev-a.png');
+}
+
+.bg-plasticoslider .slider-products .swiper-button-next::after {
+  background-image: url('../public/icons/claro-next-a.png');
+}
+
+.bg-plasticoslider .slider-products .swiper-button-prev::after {
+  background-image: url('../public/icons/claro-prev-a.png');
+}
+
+.bg-papelslider .slider-products .swiper-button-next::after,
+.bg-madeiraslider .slider-products .swiper-button-next::after {
+  background-image: url('../public/icons/cinza-next-a.png');
+}
+
+.bg-papelslider .slider-products .swiper-button-prev::after,
+.bg-madeiraslider .slider-products .swiper-button-prev::after {
+  background-image: url('../public/icons/cinza-prev-a.png');
+}
+
+.bg-metalslider {
+  background: var(--bgmetalslider);
+}
+
+.bg-papelslider {
+  background: var(--bgpapelslider);
+}
+
+.bg-plasticoslider {
+  background: var(--bgplasticoslider);
 }

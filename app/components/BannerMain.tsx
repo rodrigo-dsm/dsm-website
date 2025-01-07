@@ -9,7 +9,7 @@ const BannerMain = () => {
 
     return (
         <section className='bg-white'>
-            <div className='banner-main container mx-auto'>
+            <div className='banner-main w-full mx-auto'>
                 <Swiper
                     slidesPerView={1}
                     className='flex'

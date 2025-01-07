@@ -173,7 +173,7 @@ const Menu = () => {
                             </Link>
                             {
                                 item.itsSubItems ?
-                                    <ul className="submenu absolute top-5 bg-white p-10 rounded-[40px] w-fit max-w-full min-w-[400px] left-0">
+                                    <ul className="submenu absolute top-5 bg-white p-10 rounded-[40px] w-fit max-w-full min-w-[400px] left-0 z-50">
                                         {item.subItems.map((subItem, index) => (
                                             <li className={subItem.itsTitle ? "font-semibold text-colorMenuItem" : "font-normal text-colorMenuItem"} key={index}>
                                                 <Link
