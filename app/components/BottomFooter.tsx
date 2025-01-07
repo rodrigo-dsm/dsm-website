@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const BottomFooter = () => {
     return (
         <div className="bg-black py-10">
@@ -18,7 +20,7 @@ const BottomFooter = () => {
                     </div>
                     
                     <div className="col_3 column">
-                        <img src="https://www.dsm.com.br/cssDSM/img/dsm-rodape-escritorio.jpg" />
+                        <Image src="https://www.dsm.com.br/cssDSM/img/dsm-rodape-escritorio.jpg" alt="" />
                         <ul>
                             <li className="first">DSM MÁQUINAS LTDA</li>
                             <li>CNPJ 72.859.283/0001-32</li>
@@ -34,7 +36,7 @@ const BottomFooter = () => {
                     </div>	
                     
                     <div className="col_3 column">
-                        <img src="https://www.dsm.com.br/cssDSM/img/dsm-rodape-show.jpg" />
+                        <Image src="https://www.dsm.com.br/cssDSM/img/dsm-rodape-show.jpg" alt="" />
                         <ul>
                             <li className="first">DSM COMÉRCIO LTDA</li>
                             <li>CNPJ 24.365.774/0001-84</li>

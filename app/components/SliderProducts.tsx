@@ -46,7 +46,7 @@ const SliderProducts = ({
                         modules={[Navigation]}
                     >
                         {
-                            products.map((product: any, index: number) => (
+                            products.map((product, index: number) => (
                                 <SwiperSlide 
                                     key={index}
                                     className="flex w-full justify-between border-2 border-[#E0E0E0] rounded-2xl p-4 bg-white"
